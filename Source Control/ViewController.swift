@@ -14,6 +14,9 @@ class ViewController: NSViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        var myObject: NSObject? = NSObject()
+        myObject = nil
+        print("myObject is \(myObject)!")
     }
     
     /**
